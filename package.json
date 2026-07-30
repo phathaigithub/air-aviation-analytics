@@ -2,21 +2,25 @@
   "name": "xom-air-analytics-case-study",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vinext dev",
+    "build": "vinext build && node scripts/prepare-hosting.mjs",
+    "start": "vinext start"
   },
   "dependencies": {
-    "next": "15.5.7",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-server-dom-webpack": "^19.2.6",
+    "vinext": "latest"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@vitejs/plugin-rsc": "latest",
     "@types/node": "22.15.3",
     "@types/react": "19.1.2",
     "@types/react-dom": "19.1.2",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "vite": "^8.1.5"
   }
 }
