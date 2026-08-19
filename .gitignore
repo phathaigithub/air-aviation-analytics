@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local data extracts and generated artifacts
+node_modules/
+.next/
+.vinext/
+tsconfig.tsbuildinfo
+.openai/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+dashboard/*.pbix
+
+# Local database and application secrets
+*.pem
+*.key

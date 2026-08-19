@@ -3,14 +3,14 @@ import "./globals.css";
 export const metadata = {
   title: "Xóm Air — Aviation Customer Experience Analytics",
   description:
-    "Case study phân tích 214.681 đánh giá hàng không bằng Python và SQL Server.",
+    "A data analytics case study transforming 214,681 aviation reviews into a validated evidence base.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

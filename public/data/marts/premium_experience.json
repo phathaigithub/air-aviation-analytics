@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "mart": "mart.premium_experience",
+    "description": "Airlines with reliable lounge and seat experience scores.",
+    "grain": "airline_id",
+    "generated_at_utc": "2026-08-01T06:29:30.910963+00:00",
+    "row_count": 50,
+    "columns": [
+      "airline_id",
+      "airline_name",
+      "lounge_review_count",
+      "avg_lounge_score",
+      "seat_review_count",
+      "avg_seat_score",
+      "premium_overall_score",
+      "meets_reporting_threshold"
+    ]
+  },
+  "rows": [
+    {
+      "airline_id": 416,
+      "airline_name": "Qatar Airways",
+      "lounge_review_count": 200,
+      "avg_lounge_score": 4.03,
+      "seat_review_count": 119,
+      "avg_seat_score": 4.01,
+      "premium_overall_score": 4.02,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 109,
+      "airline_name": "Asiana Airlines",
+      "lounge_review_count": 47,
+      "avg_lounge_score": 3.88,
+      "seat_review_count": 31,
+      "avg_seat_score": 3.99,
+      "premium_overall_score": 3.93,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 202,
+      "airline_name": "EVA Air",
+      "lounge_review_count": 37,
+      "avg_lounge_score": 3.97,
+      "seat_review_count": 41,
+      "avg_seat_score": 3.89,
+      "premium_overall_score": 3.93,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 281,
+      "airline_name": "Japan Airlines",
+      "lounge_review_count": 37,
+      "avg_lounge_score": 3.68,
+      "seat_review_count": 23,
+      "avg_seat_score": 3.9,
+      "premium_overall_score": 3.79,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 4,
+      "airline_name": "ANA All Nippon Airways",
+      "lounge_review_count": 37,
+      "avg_lounge_score": 4.08,
+      "seat_review_count": 26,
+      "avg_seat_score": 3.21,
+      "premium_overall_score": 3.65,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 175,
+      "airline_name": "China Southern Airlines",
+      "lounge_review_count": 30,
+      "avg_lounge_score": 3.53,
+      "seat_review_count": 26,
+      "avg_seat_score": 3.75,
+      "premium_overall_score": 3.64,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 168,
+      "airline_name": "Cathay Pacific Airways",
+      "lounge_review_count": 133,
+      "avg_lounge_score": 4,
+      "seat_review_count": 144,
+      "avg_seat_score": 3.18,
+      "premium_overall_score": 3.59,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 405,
+      "airline_name": "Philippine Airlines",
+      "lounge_review_count": 28,
+      "avg_lounge_score": 3.54,
+      "seat_review_count": 23,
+      "avg_seat_score": 3.52,
+      "premium_overall_score": 3.53,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 414,
+      "airline_name": "Qantas Airways",
+      "lounge_review_count": 254,
+      "avg_lounge_score": 3.69,
+      "seat_review_count": 102,
+      "avg_seat_score": 3.34,
+      "premium_overall_score": 3.52,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 556,
+      "airline_name": "Vietnam Airlines",
+      "lounge_review_count": 32,
+      "avg_lounge_score": 3.41,
+      "seat_review_count": 12,
+      "avg_seat_score": 3.57,
+      "premium_overall_score": 3.49,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 8,
+      "airline_name": "Aegean Airlines",
+      "lounge_review_count": 16,
+      "avg_lounge_score": 3.65,
+      "seat_review_count": 17,
+      "avg_seat_score": 3.29,
+      "premium_overall_score": 3.47,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 92,
+      "airline_name": "Alaska Airlines",
+      "lounge_review_count": 15,
+      "avg_lounge_score": 4.16,
+      "seat_review_count": 10,
+      "avg_seat_score": 2.79,
+      "premium_overall_score": 3.47,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 519,
+      "airline_name": "Thai Airways",
+      "lounge_review_count": 131,
+      "avg_lounge_score": 3.37,
+      "seat_review_count": 29,
+      "avg_seat_score": 3.56,
+      "premium_overall_score": 3.46,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 447,
+      "airline_name": "Saudi Arabian Airlines",
+      "lounge_review_count": 13,
+      "avg_lounge_score": 3.3,
+      "seat_review_count": 12,
+      "avg_seat_score": 3.6,
+      "premium_overall_score": 3.45,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 458,
+      "airline_name": "Singapore Airlines",
+      "lounge_review_count": 139,
+      "avg_lounge_score": 3.58,
+      "seat_review_count": 118,
+      "avg_seat_score": 3.31,
+      "premium_overall_score": 3.45,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 307,
+      "airline_name": "Korean Air",
+      "lounge_review_count": 41,
+      "avg_lounge_score": 3.12,
+      "seat_review_count": 16,
+      "avg_seat_score": 3.72,
+      "premium_overall_score": 3.42,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 539,
+      "airline_name": "Turkish Airlines",
+      "lounge_review_count": 133,
+      "avg_lounge_score": 3.88,
+      "seat_review_count": 39,
+      "avg_seat_score": 2.89,
+      "premium_overall_score": 3.39,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 241,
+      "airline_name": "Garuda Indonesia",
+      "lounge_review_count": 58,
+      "avg_lounge_score": 2.69,
+      "seat_review_count": 24,
+      "avg_seat_score": 4.05,
+      "premium_overall_score": 3.37,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 341,
+      "airline_name": "Malaysia Airlines",
+      "lounge_review_count": 128,
+      "avg_lounge_score": 3.22,
+      "seat_review_count": 51,
+      "avg_seat_score": 3.5,
+      "premium_overall_score": 3.36,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 13,
+      "airline_name": "Aeroflot Russian Airlines",
+      "lounge_review_count": 19,
+      "avg_lounge_score": 3.33,
+      "seat_review_count": 20,
+      "avg_seat_score": 3.36,
+      "premium_overall_score": 3.34,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 212,
+      "airline_name": "Emirates",
+      "lounge_review_count": 218,
+      "avg_lounge_score": 3.72,
+      "seat_review_count": 143,
+      "avg_seat_score": 2.9,
+      "premium_overall_score": 3.31,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 173,
+      "airline_name": "China Airlines",
+      "lounge_review_count": 23,
+      "avg_lounge_score": 3.31,
+      "seat_review_count": 12,
+      "avg_seat_score": 3.24,
+      "premium_overall_score": 3.27,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 152,
+      "airline_name": "Brussels Airlines",
+      "lounge_review_count": 34,
+      "avg_lounge_score": 3.29,
+      "seat_review_count": 10,
+      "avg_seat_score": 3.12,
+      "premium_overall_score": 3.2,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 65,
+      "airline_name": "Air New Zealand",
+      "lounge_review_count": 76,
+      "avg_lounge_score": 3.35,
+      "seat_review_count": 75,
+      "avg_seat_score": 2.94,
+      "premium_overall_score": 3.14,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 559,
+      "airline_name": "Virgin Australia",
+      "lounge_review_count": 20,
+      "avg_lounge_score": 3.36,
+      "seat_review_count": 16,
+      "avg_seat_score": 2.9,
+      "premium_overall_score": 3.13,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 331,
+      "airline_name": "Lufthansa",
+      "lounge_review_count": 204,
+      "avg_lounge_score": 3.48,
+      "seat_review_count": 130,
+      "avg_seat_score": 2.64,
+      "premium_overall_score": 3.06,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 218,
+      "airline_name": "Ethiopian Airlines",
+      "lounge_review_count": 28,
+      "avg_lounge_score": 2.83,
+      "seat_review_count": 14,
+      "avg_seat_score": 3.22,
+      "premium_overall_score": 3.02,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 35,
+      "airline_name": "Air Canada",
+      "lounge_review_count": 124,
+      "avg_lounge_score": 3.33,
+      "seat_review_count": 79,
+      "avg_seat_score": 2.7,
+      "premium_overall_score": 3.01,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 558,
+      "airline_name": "Virgin Atlantic",
+      "lounge_review_count": 64,
+      "avg_lounge_score": 3.59,
+      "seat_review_count": 128,
+      "avg_seat_score": 2.39,
+      "premium_overall_score": 2.99,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 219,
+      "airline_name": "Etihad Airways",
+      "lounge_review_count": 126,
+      "avg_lounge_score": 3.38,
+      "seat_review_count": 98,
+      "avg_seat_score": 2.55,
+      "premium_overall_score": 2.97,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 433,
+      "airline_name": "SAS Scandinavian",
+      "lounge_review_count": 64,
+      "avg_lounge_score": 3.07,
+      "seat_review_count": 17,
+      "avg_seat_score": 2.86,
+      "premium_overall_score": 2.96,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 317,
+      "airline_name": "LOT Polish Airlines",
+      "lounge_review_count": 20,
+      "avg_lounge_score": 3.48,
+      "seat_review_count": 12,
+      "avg_seat_score": 2.38,
+      "premium_overall_score": 2.93,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 195,
+      "airline_name": "Delta Air Lines",
+      "lounge_review_count": 91,
+      "avg_lounge_score": 3.05,
+      "seat_review_count": 88,
+      "avg_seat_score": 2.78,
+      "premium_overall_score": 2.91,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 228,
+      "airline_name": "Finnair",
+      "lounge_review_count": 37,
+      "avg_lounge_score": 3.06,
+      "seat_review_count": 21,
+      "avg_seat_score": 2.75,
+      "premium_overall_score": 2.91,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 151,
+      "airline_name": "British Airways",
+      "lounge_review_count": 421,
+      "avg_lounge_score": 3.21,
+      "seat_review_count": 203,
+      "avg_seat_score": 2.58,
+      "premium_overall_score": 2.89,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 45,
+      "airline_name": "Air France",
+      "lounge_review_count": 85,
+      "avg_lounge_score": 3.07,
+      "seat_review_count": 115,
+      "avg_seat_score": 2.66,
+      "premium_overall_score": 2.87,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 174,
+      "airline_name": "China Eastern Airlines",
+      "lounge_review_count": 33,
+      "avg_lounge_score": 2.59,
+      "seat_review_count": 12,
+      "avg_seat_score": 3.16,
+      "premium_overall_score": 2.87,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 300,
+      "airline_name": "KLM Royal Dutch Airlines",
+      "lounge_review_count": 90,
+      "avg_lounge_score": 3.3,
+      "seat_review_count": 110,
+      "avg_seat_score": 2.37,
+      "premium_overall_score": 2.84,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 496,
+      "airline_name": "Swiss Intl Air Lines",
+      "lounge_review_count": 103,
+      "avg_lounge_score": 3.24,
+      "seat_review_count": 60,
+      "avg_seat_score": 2.41,
+      "premium_overall_score": 2.82,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 115,
+      "airline_name": "Austrian Airlines",
+      "lounge_review_count": 41,
+      "avg_lounge_score": 2.92,
+      "seat_review_count": 20,
+      "avg_seat_score": 2.65,
+      "premium_overall_score": 2.78,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 265,
+      "airline_name": "Iberia",
+      "lounge_review_count": 50,
+      "avg_lounge_score": 3.56,
+      "seat_review_count": 34,
+      "avg_seat_score": 1.85,
+      "premium_overall_score": 2.71,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 285,
+      "airline_name": "Jet Airways",
+      "lounge_review_count": 12,
+      "avg_lounge_score": 2.37,
+      "seat_review_count": 14,
+      "avg_seat_score": 3.01,
+      "premium_overall_score": 2.69,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 98,
+      "airline_name": "American Airlines",
+      "lounge_review_count": 136,
+      "avg_lounge_score": 3.1,
+      "seat_review_count": 114,
+      "avg_seat_score": 2.21,
+      "premium_overall_score": 2.65,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 29,
+      "airline_name": "Air Berlin",
+      "lounge_review_count": 11,
+      "avg_lounge_score": 3,
+      "seat_review_count": 23,
+      "avg_seat_score": 2.23,
+      "premium_overall_score": 2.61,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 48,
+      "airline_name": "Air India",
+      "lounge_review_count": 34,
+      "avg_lounge_score": 2.48,
+      "seat_review_count": 21,
+      "avg_seat_score": 2.75,
+      "premium_overall_score": 2.61,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 38,
+      "airline_name": "Air China",
+      "lounge_review_count": 37,
+      "avg_lounge_score": 2.3,
+      "seat_review_count": 16,
+      "avg_seat_score": 2.8,
+      "premium_overall_score": 2.55,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 547,
+      "airline_name": "United Airlines",
+      "lounge_review_count": 230,
+      "avg_lounge_score": 2.81,
+      "seat_review_count": 102,
+      "avg_seat_score": 2.22,
+      "premium_overall_score": 2.51,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 93,
+      "airline_name": "Alitalia",
+      "lounge_review_count": 31,
+      "avg_lounge_score": 2.84,
+      "seat_review_count": 25,
+      "avg_seat_score": 2.16,
+      "premium_overall_score": 2.5,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 507,
+      "airline_name": "TAP Portugal",
+      "lounge_review_count": 34,
+      "avg_lounge_score": 2.71,
+      "seat_review_count": 15,
+      "avg_seat_score": 2.24,
+      "premium_overall_score": 2.47,
+      "meets_reporting_threshold": true
+    },
+    {
+      "airline_id": 542,
+      "airline_name": "US Airways",
+      "lounge_review_count": 24,
+      "avg_lounge_score": 3.02,
+      "seat_review_count": 17,
+      "avg_seat_score": 1.88,
+      "premium_overall_score": 2.45,
+      "meets_reporting_threshold": true
+    }
+  ]
+}
