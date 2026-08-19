@@ -111,4 +111,3 @@ Pages → Source → GitHub Actions** trước lần deploy đầu tiên.
 - Review tự nguyện không đại diện ngẫu nhiên cho toàn bộ hành khách.
 - Không có doanh thu, chi phí, delay, cancellation hoặc số hành khách.
 - Không thể theo dõi cùng một khách qua bốn nhóm review.
-- Kết quả driver analysis thể hiện association, không mặc định là nhân quả.
